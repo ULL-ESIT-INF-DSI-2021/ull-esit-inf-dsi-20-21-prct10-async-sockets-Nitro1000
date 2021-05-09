@@ -30,9 +30,9 @@ En este fichero tendremos un **type RequestType** que sera el mensaje que el cli
 
 Aquí se indican los enlaces para ver el contenido de la clase Note y sus respectivas pruebas.
 
-[Clase Note](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-Nitro1000/blob/main/src/note.ts)
+[Fichero ClientC](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct10-async-sockets-Nitro1000/blob/main/src/client/clientC.ts)
 
-[Pruebas de la clase](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-Nitro1000/blob/main/tests/note.spec.ts)
+[Pruebas de la clase](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct10-async-sockets-Nitro1000/blob/main/tests/cliente.spec.ts)
 
 
 ---------------------
@@ -43,11 +43,9 @@ En este fichero tendremos un **type ResponseType** que sera el mensaje que el se
 
 Luego se va procesando la infomación que recibe el servidor y dependiendo del type del JSON ,que contendrá el comando que se quiere ejecutar, se ejecutara su respectivo comando que se comportara de la misma forma que en la practica 8. Cada metodo que representa un comando retornara un **ResponseType** que se enviara en al cliente mediante **connection.write(JSON.stringify(send_res));**
 
-Aquí se indican los enlaces para ver el contenido de la Fichero serverC y sus respectivas pruebas.
+Aquí se indican los enlaces para ver el contenido de la Fichero serverC.
 
-[Fichero serverC](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-Nitro1000/blob/main/src/note-app.ts)
-
-[Pruebas de la clase](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-Nitro1000/blob/main/tests/note-app.spec.ts)
+[Fichero serverC](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct10-async-sockets-Nitro1000/blob/main/src/server/serverC.ts)
 
 
 ---------------------
@@ -96,7 +94,7 @@ Por ultimo en cada handler se crea la peticion que el cliente enviara al servido
 
 Aquí se indican el enlace para ver el contenido del fichero command.ts .
 
-[Fichero Command](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-Nitro1000/blob/main/src/command.ts)
+[Fichero Command](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct10-async-sockets-Nitro1000/blob/main/src/command.ts)
 
 
 ---------------------
