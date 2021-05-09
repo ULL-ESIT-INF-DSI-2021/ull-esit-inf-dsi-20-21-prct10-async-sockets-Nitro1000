@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {Note} from '../src/note';
+import {Note} from '../src/server/note';
 
 describe('Test Note', () => {
   const testNota = new Note('Test Nota', 'Nota prueba', 'Blue');
