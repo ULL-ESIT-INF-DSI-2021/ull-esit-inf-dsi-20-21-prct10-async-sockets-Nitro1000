@@ -1,25 +1,25 @@
 {
-  "name": "practica8",
+  "name": "practica10",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "start": "tsc-watch --onSuccess \"node dist/index.js\"",
     "doc": "typedoc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-Nitro1000.git"
+    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct10-async-sockets-Nitro1000.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-Nitro1000/issues"
+    "url": "https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct10-async-sockets-Nitro1000/issues"
   },
-  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-Nitro1000#readme",
+  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct10-async-sockets-Nitro1000#readme",
   "devDependencies": {
     "@types/chai": "^4.2.15",
     "@types/mocha": "^8.2.2",
@@ -32,7 +32,8 @@
     "mocha": "^8.3.2",
     "nyc": "^15.1.0",
     "ts-node": "^9.1.1",
-    "tsc-watch": "^4.2.9"
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.2.4"
   },
   "dependencies": {
     "@types/node": "^14.14.41",
